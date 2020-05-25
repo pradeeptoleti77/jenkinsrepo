@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.global.covid19.LinkTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="linktesting1"/>
+        </methods>
+      </class> <!-- com.global.covid19.LinkTesting -->
+      <class name="com.global.covid19.CheckBox1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="checkboxTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.global.covid19.CheckBox1 -->
+      <class name="com.global.covid19.TC_001">
+        <methods>
+          <include name="amazon"/>
+          <include name="startProcess"/>
+          <include name="endProcess"/>
+        </methods>
+      </class> <!-- com.global.covid19.TC_001 -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

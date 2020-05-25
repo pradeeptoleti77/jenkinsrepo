@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20167" started-at="2020-05-25T12:15:55Z" finished-at="2020-05-25T12:16:15Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001.amazon()[pri:0, instance:com.global.covid19.TC_001@35fc6dc4]" name="amazon" class="com.global.covid19.TC_001"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001.amazon()[pri:0, instance:com.global.covid19.TC_001@35fc6dc4]" name="amazon" class="com.global.covid19.TC_001"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="20167" started-at="2020-05-25T12:15:55Z" finished-at="2020-05-25T12:16:15Z">
+      <class name="com.global.covid19.TC_001">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.global.covid19.TC_001@35fc6dc4]" name="startProcess" is-config="true" duration-ms="15631" started-at="2020-05-25T12:15:55Z" finished-at="2020-05-25T12:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.global.covid19.TC_001@35fc6dc4]" name="amazon" duration-ms="2800" started-at="2020-05-25T12:16:10Z" finished-at="2020-05-25T12:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.global.covid19.TC_001@35fc6dc4]" name="endProcess" is-config="true" duration-ms="1701" started-at="2020-05-25T12:16:13Z" finished-at="2020-05-25T12:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.global.covid19.TC_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
